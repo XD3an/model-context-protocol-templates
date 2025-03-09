@@ -10,7 +10,7 @@
     - [Inspecting locally developed servers](#inspecting-locally-developed-servers)
 - [MCP Servers](#mcp-servers)
 - [Templates](#templates)
-    - [**Python MCP Server Template**](#python-mcp-server-template)
+    - [**Python MCP Server Template**](/templates/Python/Guideline.md)
 
 ## [Introduction](INTRO.md)
 
@@ -103,3 +103,6 @@ npx @modelcontextprotocol/inspector <command> <arg1> <arg2>
 ## Templates
 
 - [kirill-markin/example-mcp-server](https://github.com/kirill-markin/example-mcp-server)
+
+
+### [**Python MCP Server Template**](/templates/Python/Guideline.md)
