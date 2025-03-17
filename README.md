@@ -16,6 +16,13 @@
 
 Model Context Protocol（MCP）是 Anthropic 於 2024 年 11 月發布的開源協定，**專為大型語言模型（Large Language Model，LLM）設計，旨在解決 AI 與外部資料源和系統連接的標準化問題**。MCP 提供了一個結構化框架，使模型能夠在對話中整合和利用外部上下文（context），從而擴展其功能並提高回應的準確性。
 
+MCP 提供以下 3 種能力對 LLM 進行擴展：
+
+- Resources 對知識擴展
+- Tools 調用外部工具
+- Prompts 預編寫提示詞
+
+參考以下：
 - https://www.anthropic.com/news/model-context-protocol
 
 - https://modelcontextprotocol.io/introduction
