@@ -100,9 +100,45 @@ npx @modelcontextprotocol/inspector <command> <arg1> <arg2>
 
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 
+- [mcp.so](https://mcp.so/)
+
 ## Templates
 
 - [kirill-markin/example-mcp-server](https://github.com/kirill-markin/example-mcp-server)
 
 
 ### [**Python MCP Server Template**](/templates/Python/Guideline.md)
+
+---
+
+- [https://modelcontextprotocol.io/quickstart/server](https://modelcontextprotocol.io/quickstart/server)
+
+- [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
+
+- **Features**
+    - Resources
+    - Tool
+    - Prompt
+    - Image
+    - Context
+    - ...
+
+### [**TypeScript MCP Server Template**](/templates/TypeScript/Guideline.md)
+
+---
+
+### [**Java MCP Server Template**](/templates/Java/Guideline.md)
+
+---
+
+### [**Kotlin MCP Server Template**](/templates/Kotlin/Guideline.md)
+
+---
+
+## MCP Security
+
+- [InvariantLabs: MCP Security Notification Tool Poisoning Attacks](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks) : A new security issue has been identified in the MCP protocol.
+    - [/security/mcp-security-demo](/security/mcp-security-demo)
+        - demo1: MCP Rug Pulls
+        - demo2: Shadowing Tool Descriptions
+
