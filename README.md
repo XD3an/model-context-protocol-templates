@@ -110,8 +110,6 @@ npx @modelcontextprotocol/inspector <command> <arg1> <arg2>
 
 - [mcp.so](https://mcp.so/)
 
-- [mcp.so](https://mcp.so/)
-
 ## 🧾 Templates
 
 - [kirill-markin/example-mcp-server](https://github.com/kirill-markin/example-mcp-server)
