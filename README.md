@@ -12,17 +12,18 @@
 - [Templates](#templates)
     - [**Python MCP Server Template**](/templates/Python/Guideline.md)
 
-## [Introduction](INTRO.md)
+## 👉 [Introduction](INTRO.md)
 
-Model Context Protocol（MCP）是 Anthropic 於 2024 年 11 月發布的開源協定，**專為大型語言模型（Large Language Model，LLM）設計，旨在解決 AI 與外部資料源和系統連接的標準化問題**。MCP 提供了一個結構化框架，使模型能夠在對話中整合和利用外部上下文（context），從而擴展其功能並提高回應的準確性。
+Model Context Protocol (MCP) is an open source protocol released by Anthropic in November 2024. It is designed for large language models (LLM) and aims to solve the standardization problem of connecting AI with external data sources and systems. MCP provides a structural framework that enables models to integrate and leverage external context in conversations, thereby extending their capabilities and improving the accuracy of their responses.
 
-MCP 提供以下 3 種能力對 LLM 進行擴展：
+MCP provides the following three capabilities to extend LLM:
 
-- Resources 對知識擴展
-- Tools 調用外部工具
-- Prompts 預編寫提示詞
+- **Resources** for knowledge expansion
+- **Tools** calls external tools
+- **Prompts** Pre-written prompts
 
-參考以下：
+Refer to the following:
+
 - https://www.anthropic.com/news/model-context-protocol
 
 - https://modelcontextprotocol.io/introduction
@@ -33,7 +34,7 @@ MCP 提供以下 3 種能力對 LLM 進行擴展：
     - [Explorer MCP](https://modelcontextprotocol.io/introduction#explore-mcp)
     - ...
 
-## SDK
+## 👨‍💻 SDK 👩‍💻
 
 - [Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 
@@ -46,11 +47,11 @@ MCP 提供以下 3 種能力對 LLM 進行擴展：
 - [Specification](https://spec.modelcontextprotocol.io/latest/)
 
 
-## Quickstart
+## 🔘 Quickstart
 
 - [https://modelcontextprotocol.io/introduction#quick-starts](https://modelcontextprotocol.io/introduction#quick-starts)
 
-## Debugging & Inspection
+## 🔍Debugging & Inspection
 
 ### [Debugging](https://modelcontextprotocol.io/docs/tools/debugging)
 
@@ -103,7 +104,7 @@ npx @modelcontextprotocol/inspector <command> <arg1> <arg2>
         args...
     ```
 
-## MCP Servers
+## 💻 MCP Servers
 
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 
@@ -111,16 +112,12 @@ npx @modelcontextprotocol/inspector <command> <arg1> <arg2>
 
 - [mcp.so](https://mcp.so/)
 
-## Templates
+## 🧾 Templates
 
 - [kirill-markin/example-mcp-server](https://github.com/kirill-markin/example-mcp-server)
 
 
-### [**Python MCP Server Template**](/templates/Python/Guideline.md)
-
----
-
-- [https://modelcontextprotocol.io/quickstart/server](https://modelcontextprotocol.io/quickstart/server)
+### [**Python MCP Server Template**](/templates/Python/Guideline.md)
 
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 
@@ -134,17 +131,14 @@ npx @modelcontextprotocol/inspector <command> <arg1> <arg2>
 
 ### [**TypeScript MCP Server Template**](/templates/TypeScript/Guideline.md)
 
----
 
 ### [**Java MCP Server Template**](/templates/Java/Guideline.md)
 
----
 
 ### [**Kotlin MCP Server Template**](/templates/Kotlin/Guideline.md)
 
----
 
-## MCP Security
+## 🚨 MCP Security
 
 - [InvariantLabs: MCP Security Notification Tool Poisoning Attacks](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks) : A new security issue has been identified in the MCP protocol.
     - [/security/mcp-security-demo](/security/mcp-security-demo)
