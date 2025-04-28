@@ -143,3 +143,6 @@ npx @modelcontextprotocol/inspector <command> <arg1> <arg2>
         - demo1: MCP Rug Pulls
         - demo2: Shadowing Tool Descriptions
 
+## Collections 
+
+- [awesome-mcp-devtools](https://github.com/punkpeye/awesome-mcp-devtools/)
